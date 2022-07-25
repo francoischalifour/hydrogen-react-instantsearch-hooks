@@ -1,10 +1,15 @@
-# Hydrogen Demo Store
+# Hydrogen Store with Algolia React InstantSearch Hooks
+
+This is a demo store using Shopify Hydrogen and Algolia React InstantSearch Hooks.
+
+The two entry points for search are:
+
+- [`/src/routes/search.server.tsx`](/src/routes/search.server.tsx)
+- [`/src/components/search/SearchPage.client.tsx`](/src/components/search/SearchPage.client.tsx)
 
 Hydrogen is a React framework and SDK that you can use to build fast and dynamic Shopify custom storefronts.
 
 [Check out the docs](https://shopify.dev/custom-storefronts/hydrogen)
-
-[Run this template on StackBlitz](https://stackblitz.com/github/Shopify/hydrogen/tree/stackblitz/templates/demo-store)
 
 ## Getting started
 

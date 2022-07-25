@@ -109,7 +109,7 @@ function MobileHeader({
             type="search"
             variant="minisearch"
             placeholder="Search"
-            name="q"
+            name="query"
           />
         </form>
       </div>
@@ -192,7 +192,7 @@ function DesktopHeader({
             type="search"
             variant="minisearch"
             placeholder="Search"
-            name="q"
+            name="query"
           />
           <button type="submit" className={styles.button}>
             <IconSearch />
